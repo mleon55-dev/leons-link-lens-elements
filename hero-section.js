@@ -1,5 +1,3 @@
-# Create Hero Section Custom Element
-hero_js = """
 class HeroSection extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
@@ -395,7 +393,3 @@ class HeroSection extends HTMLElement {
 }
 
 customElements.define('hero-section', HeroSection);
-"""
-
-print("Hero Section JavaScript file created successfully!")
-print(f"File length: {len(hero_js)} characters")
